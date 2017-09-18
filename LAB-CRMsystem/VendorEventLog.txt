@@ -1,0 +1,44 @@
+Costumer by name: Emil ID: 1234 has made the following purchase:
+Apple
+6
+java.util.GregorianCalendar[time=1505733787342,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Berlin",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=143,lastRule=java.util.SimpleTimeZone[id=Europe/Berlin,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2017,MONTH=8,WEEK_OF_YEAR=38,WEEK_OF_MONTH=3,DAY_OF_MONTH=18,DAY_OF_YEAR=261,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=23,SECOND=7,MILLISECOND=342,ZONE_OFFSET=3600000,DST_OFFSET=3600000]
+-----------------------END OF LOG--------------------------
+Costumer by name: Emil ID: 1234 has made the following purchase:
+Product name: Apple
+Quantity: 6
+Purchase date:java.util.GregorianCalendar[time=1505733969991,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Berlin",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=143,lastRule=java.util.SimpleTimeZone[id=Europe/Berlin,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2017,MONTH=8,WEEK_OF_YEAR=38,WEEK_OF_MONTH=3,DAY_OF_MONTH=18,DAY_OF_YEAR=261,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=26,SECOND=9,MILLISECOND=991,ZONE_OFFSET=3600000,DST_OFFSET=3600000]
+-----------------------END OF LOG--------------------------
+Costumer by name: Emil ID: 1234 has made the following purchase:
+Product name: Apple
+Quantity: 6
+Purchase date:java.util.GregorianCalendar[time=1505734008337,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Berlin",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=143,lastRule=java.util.SimpleTimeZone[id=Europe/Berlin,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2017,MONTH=8,WEEK_OF_YEAR=38,WEEK_OF_MONTH=3,DAY_OF_MONTH=18,DAY_OF_YEAR=261,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=26,SECOND=48,MILLISECOND=337,ZONE_OFFSET=3600000,DST_OFFSET=3600000]
+-----------------------END OF LOG--------------------------
+Costumer by name: Emil ID: 1234 has made the following purchase:
+Product name: Apple
+Quantity: 6
+Purchase date:2017:13:32:10
+-----------------------END OF LOG--------------------------
+SALE BY: john, 1111
+Costumer by name: Emil ID: 1234 has made the following purchase:
+Product name: Apple
+Quantity: 6
+Purchase date:2017:14:06:49
+-----------------------END OF LOG--------------------------
+SALE BY: john ID: 1111
+Costumer by name: Emil ID: 1234 has made the following purchase:
+Product name: Apple
+Quantity: 6
+Purchase date:2017:14:12:53
+-----------------------END OF LOG--------------------------
+SALE BY: john ID: 1111
+Costumer by name: Emil ID: 1234 has made the following purchase:
+Product name: Apple
+Quantity: 6
+Purchase date:2017:14:13:30
+-----------------------END OF LOG--------------------------
+SALE BY: john ID: 1111
+Costumer by name: Emil ID: 1234 has made the following purchase:
+Product name: Apple
+Quantity: 6
+Purchase date:2017:17:31:07
+-----------------------END OF LOG--------------------------
