@@ -4,33 +4,40 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Date;
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * Created by Emil on 2017-09-15.
  */
-public class VendorEventLog extends EventLog {
+public class VendorEventLog extends Observable {
+    private Vendor vendor;
 
-    EventLog eventLog1 = new EventLog();
+    public VendorEventLog(Vendor vendor){
+        this.vendor = vendor;
+    }
 
-    //Vem ska vara observer?
 
-    public void madePurchase(Product product, Costumer costumer){
+    public void madeASale(Product product, Costumer costumer){
         try {
             PrintWriter writer = new PrintWriter(new FileOutputStream(new File("VendorEventLog.txt"), true));
+            writer.println("SALE BY: "+vendor.getName()+" ID: "+vendor.getId());
             writer.println("Costumer by name: "+costumer.getName()+" ID: "+costumer.getId()+" has made the following purchase:");
-            writer.println(product.getName());
-            writer.println(product.getQuantity());
-            writer.println(product.getPurchaseDate());
+            writer.println("Product name: "+product.getName());
+            writer.println("Quantity: "+product.getQuantity());
+            writer.println("Purchase date:"+product.getPurchaseDate());
             writer.println("-----------------------END OF LOG--------------------------");
             writer.close();
-
-            String message = costumer.getId()+", new purchase";
-            setChanged();
-            notifyObservers(message);
         } catch (IOException e) {
             // do something, notify an exception log?
         }
     }
+    public void hasModifiedACostumer(Costumer costumer, Vendor vendor){
 
+        String message = "UPDATE: "+vendor.getId()+" Has made changes to costumer ID:"+costumer.getId();
+        setChanged();
+        notifyObservers(message);
+    }
 
 }

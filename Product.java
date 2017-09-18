@@ -1,5 +1,7 @@
 package com.company;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -8,7 +10,15 @@ import java.util.Date;
 public class Product {
     private String name;
     private int quantity;
-    private Date purchaseDate;
+    private String purchaseDate;
+    private Calendar cal = Calendar.getInstance();
+    private SimpleDateFormat sdf = new SimpleDateFormat("YYYY:HH:mm:ss");
+
+    public Product(String name, int quantity){
+        this.name = name;
+        this.quantity = quantity;
+        purchaseDate = sdf.format(cal.getTime());
+    }
 
 
     public String getName() {
@@ -27,11 +37,11 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public Date getPurchaseDate() {
+    public String getPurchaseDate() {
         return purchaseDate;
     }
 
-    public void setDate(Date purchaseDate) {
+    public void setDate(String purchaseDate) {
         this.purchaseDate = purchaseDate;
     }
 

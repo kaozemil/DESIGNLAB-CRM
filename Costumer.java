@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+
 /**
  * Created by Emil on 2017-09-15.
  */
@@ -7,12 +9,13 @@ package com.company;
 public class Costumer extends User {
     private int longitude;
     private int latitude;
-    private CostumerEventLog costumerEventLog;
+    private ArrayList<Vendor> vendors;
 
     public Costumer(int longitude, int latitude){
         this.longitude = longitude;
         this.latitude = latitude;
     }
+
 
     public int getLongitude() {
         return longitude;
